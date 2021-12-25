@@ -22,18 +22,12 @@ Program to find the LU Decomposition of a matrix.
 Developed by: M G gautham
 
 RegisterNumber: 21000182
-
 */
 import numpy as np
-
 from scipy.linalg import lu
-
 A= np.array(eval(input()))
-
 P , L , U =lu(A)
-
 print(L)
-
 print(U)
 
 
@@ -71,17 +65,11 @@ Developed by: M G gautham
 
 RegisterNumber: 21000182
 */
-
 import numpy as np
-
 from scipy.linalg import lu_factor, lu_solve
-
 A= np.array(eval(input()))
-
 B= np.array(eval(input()))
-
 lu , pivot = lu_factor(A)
-
 x=lu_solve((lu,pivot),B)
 
 print(x)
