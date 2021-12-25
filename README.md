@@ -38,7 +38,7 @@ print(U)
 
 
 ## Output:
-![output](./images/img.png)
+![output](./images/output2.png)
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
@@ -87,7 +87,7 @@ x=lu_solve((lu,pivot),B)
 print(x)
 
 ## Output:
-![output](./images/output2.png)
+![output](./images/img.png)
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
